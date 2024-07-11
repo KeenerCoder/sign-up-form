@@ -1,0 +1,73 @@
+:root {
+   --army-green: #596D48;
+   --off-white: rgb(244, 252, 252);
+
+}
+
+@font-face {
+   font-family: 'norsebold';
+   src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+      url('fonts/norse-bold-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+
+.italic {
+   font-style: italic;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.off-white {
+   background-color: rgb(244, 252, 252);
+   background-color: rgb(148, 128, 145);
+   background-color: var(--off-white);
+}
+
+form .grid .column label {
+   width: 800px;
+   color: var(--army-green);
+}
+
+
+form .grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+   width: 55vw;
+   padding: 20px 20px 20px 0px;
+}
+
+form .grid .column input {
+   border-color: #E5E7EB;
+}
+
+zform .grid .column {
+   width: 95vw;
+   max-width: 425px;
+   padding: 5px 5px 5px;
+   overflow: hidden;
+}
+
+button {
+   color: white;
+   font-weight: bold;
+   background-color: var(--army-green);
+   padding: 10px 25px;
+   border-radius: 0%;
+}
+
+a {
+   color: var(--army-green);
+   text-decoration: none;
+   font-weight: bold;
+}
+
+#divForm {
+   background-color: white;
+}
